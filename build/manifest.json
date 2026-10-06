@@ -136,7 +136,7 @@
     "src": "../../../../../../../../Projects/PersonalMediaAgency/node_modules/@fontsource/jost/files/jost-latin-ext-600-normal.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-n6kken04.css",
+    "file": "assets/app-BYeFX1nV.css",
     "name": "app",
     "names": [
       "app.css"
@@ -171,7 +171,7 @@
     ]
   },
   "resources/css/filament/admin/theme.css": {
-    "file": "assets/theme-DeVORoIi.css",
+    "file": "assets/theme-DMdar-um.css",
     "name": "theme",
     "names": [
       "theme.css"
@@ -219,8 +219,24 @@
     "file": "assets/pma-monogram-BKoiP4o5.png",
     "src": "resources/images/brand/pma-monogram.png"
   },
+  "resources/images/site/founder.webp": {
+    "file": "assets/founder-BrfZTZ3M.webp",
+    "src": "resources/images/site/founder.webp"
+  },
+  "resources/images/site/hero.webp": {
+    "file": "assets/hero-00gu-u4i.webp",
+    "src": "resources/images/site/hero.webp"
+  },
+  "resources/images/site/management.webp": {
+    "file": "assets/management-CJN-mPTE.webp",
+    "src": "resources/images/site/management.webp"
+  },
+  "resources/images/site/partnership.webp": {
+    "file": "assets/partnership-CnIoaiOy.webp",
+    "src": "resources/images/site/partnership.webp"
+  },
   "resources/js/app.js": {
-    "file": "assets/app-MToSd0z5.js",
+    "file": "assets/app-MLBGnLJM.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
