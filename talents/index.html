@@ -21,8 +21,8 @@
     <link rel="manifest" href="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/site.webmanifest">
     <meta name="theme-color" content="#efe9df">
 
-    <script nonce="5BzcHfIAmJolHuVTsnujfV6sZDBeibHJynKx9xd5">document.documentElement.classList.add('js');</script>
-    <link rel="preload" as="style" href="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/app-CVu6di-f.css" nonce="5BzcHfIAmJolHuVTsnujfV6sZDBeibHJynKx9xd5" /><link rel="modulepreload" as="script" href="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/app-MLBGnLJM.js" nonce="5BzcHfIAmJolHuVTsnujfV6sZDBeibHJynKx9xd5" /><link rel="stylesheet" href="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/app-CVu6di-f.css" nonce="5BzcHfIAmJolHuVTsnujfV6sZDBeibHJynKx9xd5" data-navigate-track="reload" /><script type="module" src="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/app-MLBGnLJM.js" nonce="5BzcHfIAmJolHuVTsnujfV6sZDBeibHJynKx9xd5" data-navigate-track="reload"></script></head>
+    <script nonce="GXumuFuP8R14kyorxw5ADTNeGmnPduonpJQmIxlA">document.documentElement.classList.add('js');</script>
+    <link rel="preload" as="style" href="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/app-CeQHkMvs.css" nonce="GXumuFuP8R14kyorxw5ADTNeGmnPduonpJQmIxlA" /><link rel="modulepreload" as="script" href="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/app-Cts134_w.js" nonce="GXumuFuP8R14kyorxw5ADTNeGmnPduonpJQmIxlA" /><link rel="stylesheet" href="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/app-CeQHkMvs.css" nonce="GXumuFuP8R14kyorxw5ADTNeGmnPduonpJQmIxlA" data-navigate-track="reload" /><script type="module" src="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/app-Cts134_w.js" nonce="GXumuFuP8R14kyorxw5ADTNeGmnPduonpJQmIxlA" data-navigate-track="reload"></script></head>
 <body>
     <a href="#main" class="skip-link">Skip to content</a>
 
@@ -43,7 +43,7 @@
                             </ul>
 
             <a href="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo" class="block">
-                <img src="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/pma-monogram-BKoiP4o5.png" alt="Personal Media Agency" width="1091" height="512" class="site-logo h-11 w-auto">
+                <img src="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/pma-logo-CiaGImuZ.png" alt="Personal Media Agency" width="800" height="371" class="site-logo h-[60px] w-auto">
             </a>
 
             <ul class="flex justify-end gap-[clamp(18px,2.4vw,36px)] text-xs font-medium uppercase tracking-[.2em]">
@@ -73,7 +73,7 @@
             >Menu</button>
 
             <a href="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo" class="block">
-                <img src="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/pma-monogram-BKoiP4o5.png" alt="Personal Media Agency" width="1091" height="512" class="site-logo h-8 w-auto">
+                <img src="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/pma-logo-CiaGImuZ.png" alt="Personal Media Agency" width="800" height="371" class="site-logo h-11 w-auto">
             </a>
 
             <a href="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/contact" class="flex min-h-11 items-center justify-self-end px-2.5 text-[11px] font-medium uppercase tracking-[.22em]">Contact</a>
@@ -141,6 +141,10 @@
 
             <div x-data="talentFilter">
             <div class="flex flex-wrap items-center justify-between gap-x-8 gap-y-3 border-y border-ink px-gutter py-5">
+                                    <div class="js-only flex flex-wrap gap-x-[clamp(20px,3vw,44px)] gap-y-2" role="group" aria-label="Filter by category">
+                        <button type="button" class="filter-button" data-category="all" aria-pressed="true" x-on:click="select">All</button>
+                                                    <button type="button" class="filter-button" data-category="football" aria-pressed="false" x-on:click="select">Football</button>
+                                            </div>
                                 <p class="meta ml-auto text-muted" aria-live="polite" x-text="countLabel">
                     1 talent
                 </p>
@@ -148,14 +152,17 @@
 
             <ul x-ref="list" class="grid grid-cols-1 gap-x-[clamp(20px,5vw,96px)] gap-y-[clamp(56px,6vw,88px)] px-[clamp(24px,6.7vw,96px)] pt-[clamp(48px,5vw,80px)] pb-[clamp(100px,10vw,160px)] sm:grid-cols-2 desk:grid-cols-3">
                                     <li class="min-w-0" data-category="football">
-                        <article data-reveal="up" data-delay="0" class="min-w-0">
+                        <article
+    data-reveal="up" data-delay="0"
+    class="min-w-0 talent-card-fit"
+     style="--accounts: 2" >
     
     <a href="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/talents/youri-baas" class="group block" draggable="false">
         <div class="stripes-sand relative aspect-[5/7] overflow-hidden">
                             
                 <img
-    src="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/storage/1/conversions/youri-baas-md.webp?v=1791309561"
-     srcset="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/storage/1/conversions/youri-baas-sm.webp?v=1791309561 480w, https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/storage/1/conversions/youri-baas-md.webp?v=1791309561 960w, https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/storage/1/conversions/youri-baas-lg.webp?v=1791309561 1600w" sizes="(min-width: 900px) 30vw, (min-width: 640px) 50vw, 100vw"     alt=""
+    src="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/storage/1/conversions/youri-baas-md.webp?v=1791400847"
+     srcset="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/storage/1/conversions/youri-baas-sm.webp?v=1791400847 480w, https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/storage/1/conversions/youri-baas-md.webp?v=1791400847 960w, https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/storage/1/conversions/youri-baas-lg.webp?v=1791400847 1600w" sizes="(min-width: 900px) 30vw, (min-width: 640px) 50vw, 100vw"     alt=""
      loading="lazy"     decoding="async"
     draggable="false"
     class="absolute inset-0 size-full object-cover img-zoom talent-photo"
@@ -202,7 +209,7 @@
         </div>
         </main>
 
-            <section class="px-6 py-[clamp(96px,12vw,190px)] text-center" aria-labelledby="cta-heading">
+            <section class="px-6 pb-[clamp(96px,12vw,190px)] text-center pt-[clamp(96px,12vw,190px)]" aria-labelledby="cta-heading">
     <p data-reveal="up" class="eyebrow text-muted">Work with us</p>
     <h2 id="cta-heading" data-reveal="up" data-delay="120" class="display display-lg mt-[26px]">Let’s <em>connect</em></h2>
     <p data-reveal="up" data-delay="220" class="body-copy mx-auto mt-[26px] max-w-[420px] text-ink-soft">Ready to unlock your full potential?</p>
@@ -215,7 +222,7 @@
     <div class="grid grid-cols-[repeat(auto-fit,minmax(min(100%,220px),1fr))] gap-10">
         <div class="flex flex-col gap-4">
             <a href="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo" class="self-start">
-                <img src="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/pma-monogram-BKoiP4o5.png" alt="Personal Media Agency" width="1091" height="512" loading="lazy" class="logo-on-dark h-12 w-auto">
+                <img src="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/build/assets/pma-logo-CiaGImuZ.png" alt="Personal Media Agency" width="800" height="371" loading="lazy" class="logo-on-dark h-16 w-auto">
             </a>
             <p class="max-w-xs text-sm leading-relaxed">Building, managing and growing personal brands for public figures, worldwide.</p>
         </div>
@@ -233,10 +240,11 @@
         <div class="flex flex-col gap-3 text-xs uppercase tracking-[.2em]">
             <span>&copy; 2026 PMA — Personal Media Agency</span>
             <a href="https://benjaminnieuwenhuijzen.github.io/PersonalMediaAgencyDemo/privacy" class="self-start hover:text-cream">Privacy</a>
-
-                    </div>
+        </div>
     </div>
-</footer>
+
+    
+    </footer>
 
             <p class="demo-notice meta">Demo &middot; Messages are not sent</p>
     </body>
